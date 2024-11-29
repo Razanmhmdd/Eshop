@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { NavLink, Link } from "react-router-dom";
 
 export default function NavbarTopBar() {
   const [isToggleOpen, setIsToggleOpen] = useState(false)
@@ -197,9 +198,9 @@ export default function NavbarTopBar() {
                   role="menuitem"
                   aria-haspopup="false"
                   className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-rose-500 focus:text-rose-600 focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
+                  href="/product"
                 >
-                  <span>Shop</span>
+                  <span>Products</span>
                 </a>
               </li>
               <li role="none" className="flex items-stretch">
@@ -208,9 +209,9 @@ export default function NavbarTopBar() {
                   aria-current="page"
                   aria-haspopup="false"
                   className="flex items-center gap-2 py-4 text-rose-500 transition-colors duration-300 hover:text-rose-600 focus:text-rose-600 focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
+                  href="/about"
                 >
-                  <span>Account</span>
+                  <span>About Us</span>
                 </a>
               </li>
               <li role="none" className="flex items-stretch">
@@ -218,11 +219,12 @@ export default function NavbarTopBar() {
                   role="menuitem"
                   aria-haspopup="false"
                   className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-rose-500 focus:text-rose-600 focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
+                  href="/contact"
                 >
-                  <span>Wishlist</span>
+                  <span>Contact Us</span>
                 </a>
               </li>
+             
             </ul>
             {/*      <!-- Actions --> */}
             <div className="ml-auto flex items-center justify-end px-6 lg:ml-0 lg:flex-1 lg:p-0">
