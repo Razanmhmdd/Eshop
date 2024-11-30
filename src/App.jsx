@@ -6,12 +6,13 @@ import Contact from './Pages/Contact';
 import About from './Pages/About';
 import NavbarTopBar from './Components/Navbar/Navbar';
 import FooterFiveColsLogoSubFooter from './Components/Footer/Footer';
+import Footer from './Components/Footer/Footer';
 const PageComponent = ({Page}) => {
   return (
     <>
       <NavbarTopBar/>
       <Page />
-      <FooterFiveColsLogoSubFooter />
+      <Footer />
     </>
   );
 };

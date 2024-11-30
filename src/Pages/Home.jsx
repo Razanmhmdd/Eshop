@@ -8,6 +8,7 @@ import Watch from "../Components/LaptopComponent/watch";
 import FeatureIconLeftSquareIconText from "../Components/Features/Features";
 import FooterFiveColsLogoSubFooter from "../Components/Footer/Footer";
 import RecentNews from "../Components/Hero/LandingPage";
+import Footer from '../Components/Footer/Footer';
 export default function Home() {
   return (
     <div>
@@ -19,7 +20,7 @@ export default function Home() {
       <Watch/>
       <FeatureIconLeftSquareIconText/>
       <RecentNews/>
-     <FooterFiveColsLogoSubFooter/>
+     <Footer/>
     
     </div>
   )
