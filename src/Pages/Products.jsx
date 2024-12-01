@@ -372,7 +372,7 @@ export default function Example() {
         </span>
       </div>
       <div className="flex items-center justify-between">
-        <span className="text-3xl font-bold text-gray-900 dark:text-white">$599</span>
+        <span className="text-3xl font-bold text-gray-900 dark:text-white">Rs.599</span>
         <a
           href="#"
           className="rounded-lg bg-pink-500 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-cyan-800 focus:outline-none focus:ring-4 focus:ring-cyan-300 dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800"
@@ -437,7 +437,7 @@ export default function Example() {
         </span>
       </div>
       <div className="flex items-center justify-between">
-        <span className="text-3xl font-bold text-gray-900 dark:text-white">$599</span>
+        <span className="text-3xl font-bold text-gray-900 dark:text-white">Rs.100</span>
         <a
           href="#"
           className="rounded-lg bg-pink-500 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-cyan-800 focus:outline-none focus:ring-4 focus:ring-cyan-300 dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800"
@@ -502,7 +502,7 @@ export default function Example() {
         </span>
       </div>
       <div className="flex items-center justify-between">
-        <span className="text-3xl font-bold text-gray-900 dark:text-white">$599</span>
+        <span className="text-3xl font-bold text-gray-900 dark:text-white">Rs.599</span>
         <a
           href="#"
           className="rounded-lg bg-pink-500 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-cyan-800 focus:outline-none focus:ring-4 focus:ring-cyan-300 dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800"
@@ -567,7 +567,7 @@ export default function Example() {
         </span>
       </div>
       <div className="flex items-center justify-between">
-        <span className="text-3xl font-bold text-gray-900 dark:text-white">$599</span>
+        <span className="text-3xl font-bold text-gray-900 dark:text-white">Rs.599</span>
         <a
           href="#"
           className="rounded-lg bg-pink-500 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-cyan-800 focus:outline-none focus:ring-4 focus:ring-cyan-300 dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800"
@@ -632,7 +632,7 @@ export default function Example() {
         </span>
       </div>
       <div className="flex items-center justify-between">
-        <span className="text-3xl font-bold text-gray-900 dark:text-white">$599</span>
+        <span className="text-3xl font-bold text-gray-900 dark:text-white">Rs.599</span>
         <a
           href="#"
           className="rounded-lg bg-pink-500 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-cyan-800 focus:outline-none focus:ring-4 focus:ring-cyan-300 dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800"
@@ -697,7 +697,7 @@ export default function Example() {
         </span>
       </div>
       <div className="flex items-center justify-between">
-        <span className="text-3xl font-bold text-gray-900 dark:text-white">$599</span>
+        <span className="text-3xl font-bold text-gray-900 dark:text-white">Rs.599</span>
         <a
           href="#"
           className="rounded-lg bg-pink-500 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-cyan-800 focus:outline-none focus:ring-4 focus:ring-cyan-300 dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800"
@@ -762,7 +762,7 @@ export default function Example() {
         </span>
       </div>
       <div className="flex items-center justify-between">
-        <span className="text-3xl font-bold text-gray-900 dark:text-white">$599</span>
+        <span className="text-3xl font-bold text-gray-900 dark:text-white">Rs.599</span>
         <a
           href="#"
           className="rounded-lg bg-pink-500 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-pink-800 focus:outline-none focus:ring-4 focus:ring-cyan-300 dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800"
