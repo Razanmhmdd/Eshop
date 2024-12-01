@@ -31,7 +31,7 @@ const Footer = () => {
 <footer className="footer footer-center text-base-content p-4 bg-gray-100">
   <aside>
     <p>
-      Copyright © {new Date().getFullYear()} - © 2024 | All Right Reserved | Tech House International (Pvt) Ltd | Designed & {' '}
+      Copyright © {new Date().getFullYear()} - © 2024 | All Right Reserved | Tech House International (Pvt) Ltd | Designed & Developed{' '}
       <a
         href="https://siliconradonnetworks.com/"
         target="_blank"

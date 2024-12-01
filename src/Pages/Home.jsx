@@ -9,6 +9,7 @@ import FeatureIconLeftSquareIconText from "../Components/Features/Features";
 import FooterFiveColsLogoSubFooter from "../Components/Footer/Footer";
 import RecentNews from "../Components/Hero/LandingPage";
 import Footer from '../Components/Footer/Footer';
+import Newsletter from '../Components/Newsletter/Newsletter';
 export default function Home() {
   return (
     <div>
@@ -19,6 +20,7 @@ export default function Home() {
       <CardGridView/>
       <Watch/>
       <FeatureIconLeftSquareIconText/>
+      <Newsletter/>
       <RecentNews/>
      <Footer/>
     
