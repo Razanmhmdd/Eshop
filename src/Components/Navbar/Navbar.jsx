@@ -193,6 +193,16 @@ export default function NavbarTopBar() {
                   : "invisible opacity-0"
               }`}
             >
+               <li role="none" className="flex items-stretch">
+                <a
+                  role="menuitem"
+                  aria-haspopup="false"
+                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-rose-500 focus:text-rose-600 focus:outline-none focus-visible:outline-none lg:px-8"
+                  href="/"
+                >
+                  <span>Home</span>
+                </a>
+              </li>
               <li role="none" className="flex items-stretch">
                 <a
                   role="menuitem"

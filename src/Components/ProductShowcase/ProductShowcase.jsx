@@ -1,116 +1,14 @@
-// import React from "react";
-
-// const ProductShowcase = () => {
-//   // Product data
-//   const products = [
-//     {
-//       title: "iPhone 12 Pro",
-//       description: "Blast Past Fast. It's a Leap Year.",
-//       image: "/assets/images/1.webp",
-//       bgColor: "bg-gray-900",
-//       buttonColor: "bg-green-500",
-//     },
-//     {
-//       title: "DJI Mavic Mini",
-//       description: "Stay Connected. Stay Creative.",
-//       image: "/assets/images/dj.png",
-//       bgColor: "bg-gray-800",
-//       buttonColor: "bg-yellow-500",
-//     },
-//     {
-//       title: "Wear Gadgets",
-//       description: "Stay Creative with Innovative Wearables.",
-//       image: "/assets/images/wa.png",
-//       bgColor: "bg-red-600",
-//       buttonColor: "bg-black",
-//     },
-//     {
-//       title: "ASUS Laptop",
-//       description: "Top-Notch Performance",
-//       image: "/assets/images/lap.png",
-//       bgColor: "bg-gray-700",
-//       buttonColor: "bg-blue-500",
-//     },
-//     {
-//       title: "Samsung s23 Ultra",
-//       description: "Noise Cancelling & Dynamic Sound",
-//       image: "/assets/images/s23.webp",
-//       bgColor: "bg-blue-900",
-//       buttonColor: "bg-purple-500",
-//     },
-//     {
-//       title: "Apple I-pad",
-//       description: "Elegant And Slim",
-//       image: "/assets/images/ipa.png",
-//       bgColor: "bg-gray-800",
-//       buttonColor: "bg-yellow-500",
-//     },
-//   ];
-
-//   return (
-//     <div className="bg-gray-800 text-white py-12 px-6">
-//       {/* Header */}
-//       <h1 className="text-4xl font-bold text-center mb-12 animate-fade-in">
-//         Explore Our Products
-//       </h1>
-
-//       {/* Product Grid */}
-//       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-//         {products.map((product, index) => (
-//           <div
-//             key={index}
-//             className={`p-6 rounded-lg shadow-lg flex flex-col items-center text-center transition-transform duration-300 hover:scale-105 ${product.bgColor}`}
-//           >
-//             {/* Title */}
-//             <h3 className="text-lg font-bold uppercase mb-2">
-//               {product.title}
-//             </h3>
-
-//             {/* Description */}
-//             <p className="text-sm mb-4">{product.description}</p>
-
-//             {/* Image */}
-//             <div className="w-full h-48 mb-4">
-//               <img
-//                 src={product.image}
-//                 alt={product.title}
-//                 className="w-full h-full object-cover rounded-md shadow-md transition-transform duration-300 hover:scale-110"
-//               />
-//             </div>
-
-//             {/* Button */}
-//             <button
-//               className={`py-2 px-4 font-semibold rounded-lg ${product.buttonColor} hover:opacity-90 transition duration-300`}
-//             >
-//               Shop By Category
-//             </button>
-//           </div>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default ProductShowcase;
 import React from "react";
-import img1 from "/assets/images/product/11.jpg";
-import img2 from "/assets/images/product/12.jpg";
-import img3 from "/assets/images/product/13.jpg";
-import img4 from "/assets/images/product/14.jpg";
-import img5 from "/assets/images/product/a55.jpg";
-import img6 from "/assets/images/product/s20.jpg";
-import img7 from "/assets/images/product/s24.jpg";
-import img8 from "/assets/images/product/a05.jpg";
-
+import img7 from "/assets/images/1.webp";
 
 export default function ProductShowcase() {
   // Array of images
-  const images = [img1, img2, img3, img4, img5, img6, img7,img8];
+  const images = [img7, img7, img7, img7, img7, img7, img7, img7];
 
   return (
-    <div className="bg-gray-800 py-10">
-      <div className="container mx-auto px-8 py-8">
-        <h2 className="text-3xl font-bold text-center mb-8 text-pink-500">
+    <div className="bg-white -800 py-10">
+      <div className="relative max-w-7xl mx-auto py-8 px-4">
+        <h2 className="text-3xl font-bold text-center text-pink-600 mb-6">
           Latest Mobiles
         </h2>
         {/* Grid layout */}
@@ -119,33 +17,57 @@ export default function ProductShowcase() {
           {images.map((image, index) => (
             <div
               key={index}
-              className="overflow-hidden rounded bg-white text-slate-500 shadow-md shadow-slate-200"
+              className="w-full max-w-2xl bg-gray-50 border border-gray-200 rounded-lg "
             >
-              {/* Image */}
-              <figure>
+              <a href="#">
                 <img
+                  className="p-8 rounded-t-lg"
                   src={image}
                   alt={`Product ${index + 1}`}
-                  className="aspect-video w-full"
                 />
-              </figure>
-              {/* Body */}
-              <div className="p-6">
-                <header className="mb-4">
-                  <h3 className="text-xl font-medium text-slate-700">
-                    Iphone {index + 1}
-                  </h3>
-                  <p className="text-slate-400">$8.99</p>
-                </header>
-                <p>
-                  #apple, #ios, #BrandNew
-                </p>
-              </div>
-              {/* Action Button */}
-              <div className="flex justify-end p-6 pt-0">
-                <button className="inline-flex h-10 w-full items-center justify-center gap-2 whitespace-nowrap rounded bg-rose-500 px-5 text-sm font-medium tracking-wide text-white transition duration-300 hover:bg-rose-600 focus:bg-rose-700 focus-visible:outline-none disabled:cursor-not-allowed disabled:border-rose-300 disabled:bg-rose-300 disabled:shadow-none">
-                  <span>Buy now!</span>
-                </button>
+              </a>
+              <div className="px-5 pb-5">
+                <a href="#">
+                  <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                    I phone {index + 1}
+                  </h5>
+                </a>
+                <div className="flex items-center mt-2.5 mb-5">
+                  <div className="flex items-center space-x-1">
+                    {[...Array(4)].map((_, starIndex) => (
+                      <svg
+                        key={starIndex}
+                        className="w-4 h-4 text-yellow-300"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor"
+                        viewBox="0 0 22 20"
+                      >
+                        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                      </svg>
+                    ))}
+                    <svg
+                      className="w-4 h-4 text-gray-200 dark:text-gray-600"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20"
+                    >
+                      <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                    </svg>
+                  </div>
+                  <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded ms-3">
+                    5.0
+                  </span>
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="text-xl font-bold text-gray-900 dark:text-white">
+                    Rs:599
+                  </span>
+                  <button className="text-white bg-pink-500 hover:bg-pink-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Buy Now
+                  </button>
+                </div>
               </div>
             </div>
           ))}
