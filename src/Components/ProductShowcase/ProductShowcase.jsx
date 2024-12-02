@@ -28,7 +28,7 @@ export default function ProductShowcase() {
               </a>
               <div className="px-5 pb-5">
                 <a href="#">
-                  <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="text-xl font-semibold tracking-tight text-gray-900 ">
                     I phone {index + 1}
                   </h5>
                 </a>
@@ -47,7 +47,7 @@ export default function ProductShowcase() {
                       </svg>
                     ))}
                     <svg
-                      className="w-4 h-4 text-gray-200 dark:text-gray-600"
+                      className="w-4 h-4 text-gray-200 "
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -61,7 +61,7 @@ export default function ProductShowcase() {
                   </span>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-xl font-bold text-gray-900 dark:text-white">
+                  <span className="text-xl font-bold text-gray-900 ">
                     Rs:599
                   </span>
                   <button className="text-white bg-pink-500 hover:bg-pink-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">

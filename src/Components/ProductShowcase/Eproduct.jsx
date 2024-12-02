@@ -64,7 +64,7 @@ const products = [
 
 // Individual product card component
 const ProductCard = ({ product }) => (
-  <div className="bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+  <div className="bg-white rounded-lg shadow-md ">
     <img
       className="rounded-t-lg w-full"
       src={product.imgSrc}
@@ -72,7 +72,7 @@ const ProductCard = ({ product }) => (
       loading="lazy"
     />
     <div className="p-4">
-      <h5 className="text-lg font-semibold tracking-tight text-gray-900 dark:text-white md:text-xl">
+      <h5 className="text-lg font-semibold tracking-tight text-gray-900 ">
         {product.name}
       </h5>
       <div className="my-3 flex items-center">
@@ -89,17 +89,17 @@ const ProductCard = ({ product }) => (
             <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
           </svg>
         ))}
-        <span className="ml-3 text-xs font-semibold text-cyan-800 dark:text-cyan-300">
+        <span className="ml-3 text-xs font-semibold text-cyan-800 ">
           {product.rating}.0
         </span>
       </div>
       <div className="flex items-center justify-between">
-        <span className="text-lg font-bold text-gray-900 dark:text-white md:text-xl">
+        <span className="text-lg font-bold text-gray-900 ">
           Rs.{product.price}
         </span>
         <a
   href="/info"
-  className="flex items-center justify-center rounded-lg bg-pink-500 px-3 py-2 text-center text-xs font-medium text-white hover:bg-pink-700 focus:outline-none focus:ring-4 focus:ring-pink-300 dark:bg-pink-600 dark:hover:bg-pink-700 dark:focus:ring-pink-800 md:text-sm"
+  className="flex items-center justify-center rounded-lg bg-pink-500 px-3 py-2 text-center text-xs font-medium text-white hover:bg-pink-700 focus:outline-none focus:ring-4 focus:ring-pink-300   md:text-sm"
 >
   <FaCartPlus className="text-lg md:text-xl" />
 </a>

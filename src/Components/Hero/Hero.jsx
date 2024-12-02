@@ -12,7 +12,7 @@ import img4 from "/assets/images/1.webp";
 
 const HeroSection = () => {
   return (
-    <div className="bg-pink-50 dark:bg-gray-800 flex items-center overflow-hidden py-8">
+    <div className="bg-pink-50  flex items-center overflow-hidden py-8">
       <div className="container mx-auto px-4 md:px-6 lg:px-8 flex flex-col md:flex-row items-center">
         {/* Left Content */}
         <motion.div
@@ -21,8 +21,8 @@ const HeroSection = () => {
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          <span className="block w-16 h-2 bg-gray-800 dark:bg-white mb-4 mx-auto md:mx-0"></span>
-          <h1 className="font-bebas-neue uppercase text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black leading-tight dark:text-white text-gray-800">
+          <span className="block w-16 h-2 bg-gray-800 mb-4 mx-auto md:mx-0"></span>
+          <h1 className="font-bebas-neue uppercase text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black leading-tight  text-gray-800">
           Experience
             <motion.span
               className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl"
@@ -33,7 +33,7 @@ const HeroSection = () => {
               the Future
             </motion.span>
           </h1>
-          <p className="text-base sm:text-lg text-gray-700 dark:text-gray-300 mt-4">
+          <p className="text-base sm:text-lg text-gray-700  mt-4">
           Discover the ultimate performance and sleek design in our latest products.
           </p>
           <div className="flex justify-center md:justify-start gap-4 mt-6">
@@ -47,7 +47,7 @@ const HeroSection = () => {
             </motion.a>
             <motion.a
               href="#"
-              className="uppercase py-2 px-4 rounded-lg bg-transparent border-2 border-pink-500 text-pink-500 dark:text-white hover:bg-pink-500 hover:text-white text-md"
+              className="uppercase py-2 px-4 rounded-lg bg-transparent border-2 border-pink-500 text-pink-500  hover:bg-pink-500 hover:text-white text-md"
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
             >
