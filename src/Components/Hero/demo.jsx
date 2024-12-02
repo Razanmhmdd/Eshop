@@ -1,38 +1,58 @@
-import React from "react";
+import img1 from "/assets/images/category/7.jpg";
+import img2 from "/assets/images/category/8.jpeg";
+import img3 from "/assets/images/category/9.webp";
 
-const qw = () => {
+const callouts = [
+  {
+    name: 'Desk and Office Gaming',
+    description: 'Work from home accessories',
+    imageSrc: img1,
+    imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
+    href: '#',
+  },
+  {
+    name: 'Self-Improvement Gaming',
+    description: 'Journals and note-taking',
+    imageSrc: img2,
+    imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
+    href: '#',
+  },
+  {
+    name: 'Travel',
+    description: 'Gaming ',
+    imageSrc: img3, 
+    imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
+    href: '#',
+  },
+];
+
+export default function Collection() {
   return (
-    <section className="bg-gray-100">
-      <div className="max-w-7xl mx-auto px-4 py-16 flex flex-col-reverse md:flex-row items-center">
-        {/* Left Content */}
-        <div className="text-center md:text-left md:w-1/2 space-y-6">
-          <h1 className="text-4xl font-bold text-gray-800">
-            Elevate Your Shopping Experience
-          </h1>
-          <p className="text-lg text-gray-600">
-            Discover the latest products and best deals. Unparalleled quality, amazing offers, and exclusive discounts await you!
-          </p>
-          <div className="space-x-4">
-            <button className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-md shadow-md hover:bg-blue-700">
-              Shop Now
-            </button>
-            <button className="px-6 py-3 bg-gray-300 text-gray-800 font-semibold rounded-md shadow-md hover:bg-gray-400">
-              Learn More
-            </button>
+    <div className="bg-pink-50">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
+          <h2 className="text-4xl font-bold text-pink-500">Gaming Accessories</h2>
+
+          <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
+            {callouts.map((callout) => (
+              <div key={callout.name} className="group relative">
+                <img
+                  alt={callout.imageAlt}
+                  src={callout.imageSrc} // Properly reference the image source
+                  className="w-full rounded-lg bg-white object-cover group-hover:opacity-75 max-sm:h-80 sm:aspect-[2/1] lg:aspect-square"
+                />
+                <h3 className="mt-6 text-sm text-gray-500">
+                  <a href={callout.href}>
+                    <span className="absolute inset-0" />
+                    {callout.name}
+                  </a>
+                </h3>
+                <p className="text-base font-semibold text-gray-900">{callout.description}</p>
+              </div>
+            ))}
           </div>
         </div>
-
-        {/* Right Content - Image */}
-        <div className="md:w-1/2">
-          <img
-            src="https://via.placeholder.com/500x400"
-            alt="Hero Product"
-            className="rounded-lg shadow-lg"
-          />
-        </div>
       </div>
-    </section>
+    </div>
   );
-};
-
-export default qw;
+}
