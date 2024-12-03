@@ -64,7 +64,7 @@ const products = [
 
 // Individual product card component
 const ProductCard = ({ product }) => (
-  <div className="bg-white rounded-lg shadow-md ">
+  <div className="bg-slate-50 rounded-lg shadow-md ">
     <img
       className="rounded-t-lg w-full"
       src={product.imgSrc}
@@ -72,7 +72,7 @@ const ProductCard = ({ product }) => (
       loading="lazy"
     />
     <div className="p-4">
-      <h5 className="text-lg font-semibold tracking-tight text-gray-900 ">
+      <h5 className="text-sm font-semibold tracking-tight text-gray-900 ">
         {product.name}
       </h5>
       <div className="my-3 flex items-center">

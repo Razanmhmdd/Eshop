@@ -77,7 +77,7 @@ const ProductInfo = () => {
               </div>
 
               {/* Size Selection */}
-              <div className="mb-4">
+              {/* <div className="mb-4">
                 <span className="font-bold text-gray-700 ">
                   Select Size:
                 </span>
@@ -91,7 +91,7 @@ const ProductInfo = () => {
                     </button>
                   ))}
                 </div>
-              </div>
+              </div> */}
 
               {/* Product Description */}
               <div>

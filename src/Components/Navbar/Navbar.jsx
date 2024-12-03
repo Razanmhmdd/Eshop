@@ -234,6 +234,16 @@ export default function NavbarTopBar() {
                   <span>Contact Us</span>
                 </a>
               </li>
+              <li role="none" className="flex items-stretch">
+                <a
+                  role="menuitem"
+                  aria-haspopup="false"
+                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-rose-500 focus:text-rose-600 focus:outline-none focus-visible:outline-none lg:px-8"
+                  href="/login"
+                >
+                  <span>Login</span>
+                </a>
+              </li>
              
             </ul>
             {/*      <!-- Actions --> */}
@@ -264,6 +274,7 @@ export default function NavbarTopBar() {
                   2<span className="sr-only"> new emails </span>
                 </span>
               </a>
+              
             </div>
           </nav>
         </div>
