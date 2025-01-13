@@ -132,7 +132,7 @@ export default function NavbarTopBar() {
               className="flex items-center gap-2 whitespace-nowrap py-3 text-lg focus:outline-none lg:flex-1"
               href="javascript:void(0)"
             >
-            <img
+                            <img
                            className="w-12 h-28 object-contain"
                             src={img1}
                             alt="Product"
