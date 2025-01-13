@@ -22,16 +22,16 @@ const About = () => {
             </h2>
             <p className="text-gray-700 text-base md:text-lg mb-4">
               Warm Greetings, <br />
-              TechShop offered safety and basic use training on all of its tools and equipment in addition to advanced and special interest classes and workshops. For most equipment, a safety and use class had to be completed before it could be used. It was affiliated with the maker culture and participated in annual Maker Faire events.
+              AVI Store offered safety and basic use training on all of its tools and equipment in addition to advanced and special interest classes and workshops. For most equipment, a safety and use class had to be completed before it could be used. It was affiliated with the maker culture and participated in annual Maker Faire events.
             </p>
             <p className="text-gray-800 text-base md:text-lg font-medium mb-4">
               Contact me: <br />
-              <a href="tel:+94773544300" className="hover:underline">+94773544300</a> <br />
-              <a href="tel:+94771181803" className="hover:underline">+94771181803</a>
+              <a href="tel:+94773544300" className="hover:underline">+94776059293</a> <br />
+              {/* <a href="tel:+94771181803" className="hover:underline">+94771181803</a> */}
             </p>
             <p className="text-gray-700 text-base md:text-lg mb-4">
               Yours Sincerely, <br />
-              <span className="font-semibold text-gray-800">Mr. David</span> </p>
+              <span className="font-semibold text-gray-800">AVI Store</span> </p>
              
       
           </div>
