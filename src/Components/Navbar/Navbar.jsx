@@ -38,7 +38,7 @@ export default function NavbarTopBar() {
           <div className="col-span-2 items-center justify-end gap-6 md:col-span-4 lg:col-span-6">
             <div className="flex items-center justify-end gap-4">
               <a
-                href="javascript:void(0)"
+                href="https://web.facebook.com/avistores"
                 className="transition-colors duration-300 hover:text-rose-500"
               >
                 <svg
@@ -200,7 +200,7 @@ export default function NavbarTopBar() {
                   role="menuitem"
                   aria-current="page"
                   aria-haspopup="false"
-                  className="flex items-center gap-2 py-4 text-rose-500 transition-colors duration-300 hover:text-rose-600 focus:text-rose-600 focus:outline-none focus-visible:outline-none lg:px-8"
+                  className="flex items-center gap-2 py-4  transition-colors duration-300 hover:text-rose-600 focus:text-rose-600 focus:outline-none focus-visible:outline-none lg:px-8"
                   href="/about"
                 >
                   <span>About Us</span>
