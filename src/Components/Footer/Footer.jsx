@@ -7,9 +7,9 @@ const Footer = () => {
           
   <nav>
     <h6 className="footer-title ">Location</h6>
-    <a className="link link-hover">No 86,</a>
-    <a className="link link-hover">SuperMarket Complex,</a>
-    <a className="link link-hover">Matale, Srilanka,</a>
+    <a className="link link-hover">No 310,</a>
+    <a className="link link-hover">Katugastota Road,</a>
+    <a className="link link-hover">Kandy, Srilanka,</a>
     <a className="link link-hover">Tel :- 077 224 2525</a>
     <a className="link link-hover">Email :- eshop.official@gmail.com</a>
   </nav>
