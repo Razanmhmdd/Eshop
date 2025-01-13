@@ -33,8 +33,7 @@ export default function NavbarTopBar() {
                   clipRule="evenodd"
                 />
               </svg>
-              +94xxxxxxxxxx
-            </a>
+              +94776059293            </a>
           </div>
           <div className="col-span-2 items-center justify-end gap-6 md:col-span-4 lg:col-span-6">
             <div className="flex items-center justify-end gap-4">
