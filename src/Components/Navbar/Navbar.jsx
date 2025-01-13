@@ -33,7 +33,7 @@ export default function NavbarTopBar() {
                   clipRule="evenodd"
                 />
               </svg>
-              +306750009800
+              +94xxxxxxxxxx
             </a>
           </div>
           <div className="col-span-2 items-center justify-end gap-6 md:col-span-4 lg:col-span-6">
@@ -133,9 +133,9 @@ export default function NavbarTopBar() {
               href="javascript:void(0)"
             >
                             <img
-                           className="w-12 h-28 object-contain"
+                            className="w-auto h-24 "
                             src={img1}
-                            alt="Product"
+                            alt="logo"
                           />
             </a>
             {/*      <!-- Mobile trigger --> */}

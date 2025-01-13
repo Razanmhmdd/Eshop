@@ -10,8 +10,8 @@ const Footer = () => {
     <a className="link link-hover">No 310,</a>
     <a className="link link-hover">Katugastota Road,</a>
     <a className="link link-hover">Kandy, Srilanka,</a>
-    <a className="link link-hover">Tel :- 077 224 2525</a>
-    <a className="link link-hover">Email :- eshop.official@gmail.com</a>
+    <a className="link link-hover">Tel :- +94 xxx xx xx</a>
+    <a className="link link-hover">Email :- avstore@gmail.com</a>
   </nav>
   <nav>
     <h6 className="footer-title ">Link</h6>
